@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    background: #1a1f2a;
+}
+.container .cadastro{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1f2a;
+}
+.container .cadastro .social{
+    display: flex;
+}
+.cadastro .hcontainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .cadastro h1{
+    font-size: 40px;
+    color: #916fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container .cadastro .social .img-g, .img-f, .img-l{
+    width: 50px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+}
+.container .cadastro .social .img-g img{
+    width: 30px;
+    padding: 10px 0;
+}
+.container .cadastro .social .img-f img{
+    width: 30px;
+    padding: 10px 0;
+}
+.container .cadastro .social .img-l img{
+    width: 30px;
+    padding: 10px 0;
+}
+.container .cadastro .hcontainer h4{
+    margin: 0 10px;
+    color: #4d5159;
+}
+.gg-border-style-solid {
+    transform: scale(var(--ggs,1));
+   }
+   
+   .gg-border-style-solid,
+   .gg-border-style-solid::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 17px
+   }
+   .gg-border-style-solid::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 8px;
+    border-top: 1px solid #4d5159;
+   }
+   .container .cadastro .form-cadastro{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       color: #ffffff;
+       margin-top: 30px;
+   }
+   input{
+       width: 300px;
+       height: 50px;
+       border: 0;
+       margin:  17px 0;
+       padding: 0 10px;
+       border-radius: 10px;
+       color: #ffffff;
+       background-color: #161824;
+       border: 1px solid #030a19;
+   }
+   button{
+       width: 150px;
+       height: 50px;
+       border-radius: 25px;
+       font-weight: bold;
+       color: #ffffff;
+       border: 0;
+       left: 50%;
+       background-color: #7845ff;
+       transition: all .3s ease-in-out;
+   }
+   button:hover{
+       cursor: pointer;
+       opacity: 0.8;
+   }
+   .container .image{
+       display: flex;
+       width: 550px;
+   }
+   .container .image img{
+    width: 500px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    object-fit: cover;
+    z-index: 2;
+}
+.container .ball{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #e8cbc0, #636fa4);
+    clip-path: circle(40% at right 80%);
+}
